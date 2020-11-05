@@ -51,7 +51,7 @@ jobs:
       - run:
           command: yarn test:e2e
           environment:
-            DATABASE_URL: postgres://julien_dudek:unpass@localhost:5432/testdb
+            DATABASE_URL: postgres://abdallah_2020:password@localhost:5432/testci
             JWT_SECRET: m1iii
             API_PORT: 3000
             API_HOST: localhost
@@ -88,3 +88,4 @@ workflows:
       - doc:
           requires:
             - build
+
